@@ -23,3 +23,156 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #888888;
 }
+
+/* animatons */
+
+@keyframes moveToRight {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+/* when page loaded animations */
+
+.white--banner {
+    position: relative;
+}
+
+.white--banner > * {
+    position: relative;
+    z-index: 10;
+}
+
+.white--banner.style-perm::before {
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EAE9EE;
+    animation: moveToRight .4s both;
+    z-index: 0;
+}
+
+/* start navbar */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: radial-gradient(#7EDC65 25%, #3EC76D);
+}
+
+.clickable--menu {
+    max-height: 0 !important;
+    height: 0 !important;
+    transition: all .2s linear;
+    z-index: 250;
+}
+
+.clickable--menu.active {
+    max-height: 115px !important;
+    height: 115px !important;
+    transition: all .2s linear;
+}
+
+.clickable--menu__ul {
+    display: none;
+    transition: all .2s linear;
+}
+
+.clickable--menu__ul.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .2s linear;
+}
+
+.navbar__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.insure {
+    width: 30%;
+    gap: 10px;
+    user-select: none;
+    color: #fff;
+}
+
+.insure svg {
+    margin-right: -13px;
+    vertical-align: middle;
+}
+
+.navbar--menu {
+    width: 30%;
+}
+
+.navbar--menu--items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service--number {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #00104a;
+    fill: #00104a;
+    border-radius: 0 5px 5px 5px;
+    font-family: 'Roboto-Medium';
+}
+
+.service--quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 8px 12px;
+    background-color: #00104a;
+    color: #fff;
+    border-radius: 0 5px 5px 5px;
+}
+
+.navbar__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px !important;
+    margin-bottom: 80px !important;
+    color: #fff;
+    font-size: 55px;
+}
+
+#email {
+    padding: 15px 10px;
+    padding-right: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #6d6d6d;
+    font-size: medium;
+    outline: none;
+}
+
+.get-plan {
+    width: 180px;
+    padding: 13px 20px;
+    background-color: #00104a;
+    border-radius: 0 10px 10px 10px;
+    font-size: medium;
+    position: absolute;
+    left: 280px;
+    bottom: 0;
+}
+
+.content__img {
+    border-radius: 0 40px 40px 40px;
+    z-index: 1;
+}
+
+/* end navbar */
