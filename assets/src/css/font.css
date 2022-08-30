@@ -1,0 +1,93 @@
+/*
+*************
+* Help Text *
+*************
+
+**********************
+* google roboto font * > from ln 19 of col 1 to ln 88 of col 2
+**********************
+
+***************************************
+* writed this css file by Dev_Mojtaba *
+***************************************
+
+*********************
+* PLEASE DON'T EDIT * > if you want to know what is this please read this page -> https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+*********************
+
+*** future features ***
+* maybe add other fonts
+
+*/
+
+/* thin */
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+/* italic thin */
+@font-face {
+    font-family: "Roboto-Thin-Italic";
+    src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+
+/* light */
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+/* italic light */
+@font-face {
+    font-family: "Roboto-Light-Italic";
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+/* regular */
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/* medium */
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+/* italic medium */
+@font-face {
+    font-family: "Roboto-Medium-Italic";
+    src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+
+/* black */
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+/* italic black */
+@font-face {
+    font-family: "Roboto-Black-Italic";
+    src: url(../fonts/Roboto-BlackItalic.ttf);
+}
+
+/* bold */
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+/* italic bold */
+@font-face {
+    font-family: "Roboto-Bold-Italic";
+    src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+
+/* italic */
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url(../fonts/Roboto-Italic.ttf);
+}
