@@ -313,3 +313,15 @@ body {
 /* end modals config */
 
 /* end main */
+
+/* start footer */
+
+.simple__footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 87%;
+    margin: 0 auto;
+}
+
+/* end footer */
