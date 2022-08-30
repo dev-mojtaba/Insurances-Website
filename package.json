@@ -1,0 +1,14 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-mojtaba": "npx tailwindcss -i ./assets/src/css/tailwind.css -o ./assets/src/css/output.css --watch --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
